@@ -1,4 +1,10 @@
-pandas==2.2.2
+pandas==1.5.3
 numpy==1.26.4
 torch==2.4.0
 scikit-learn==1.5.1
+python-nmap==0.7.1
+gym==0.26.2
+matplotlib==3.9.2
+requests==2.32.3
+beautifulsoup4==4.12.3
+paramiko==3.4.0mysql-connector-python==8.0.33
