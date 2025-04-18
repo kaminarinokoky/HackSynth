@@ -1,5 +1,9 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import torch
-from model import AnomalyDetector
+from src.model import AnomalyDetector
 
 def test_model_forward():
     input_dim = 3
